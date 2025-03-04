@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+            background-color: black;
+        }
+        .main{
+            position: relative;
+            width: 100%;
+            height: 100vh;
+        }
+        .main img{
+            width: 100%;
+            height: 100%;
+        }
+        .s1{
+            position: absolute;
+            top: -30px;
+            left: 140px;
+        }
+        .s1 img{
+            width: 160px;
+        }
+        .s2{
+            position: absolute;
+            top: 200px;
+            text-align: center;
+            color: azure;
+            left: 470px;
+            font-size: xx-large;
+            /* font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif; */
+        }
+        .s2 h1,p{
+            margin: 20px;
+        }
+        .s3{
+            position: absolute;
+            top: 500px;
+            left: 480px;
+        }
+        .s3 td{
+            padding: 2px;
+        }
+        .s3 input{
+            width: 400px;
+            height: 52px;
+            border-radius: 5px;
+            background-color: rgb(39, 38, 38, 0.5);
+            border: 0.7px solid rgb(249, 251, 251, 0.5);
+        }
+        .s3 button{
+            width: 230px;
+            height: 57px;
+            border-radius: 6px;
+            background-color: red;
+            color: azure;
+            font-size: x-large;
+            border: 0px;
+        }
+        .s3 ::placeholder{
+            padding: 10px;
+            font-size: medium;
+            font-weight: bold;
+            color: silver;
+        }
+        .s4{
+            position: absolute;
+            left: 1150px;
+            top: 30px;
+            padding-right: 2px;
+        }
+        .s4 td{
+            padding-right: 6px;
+        }
+        .s4 select{
+            width: 130px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: rgb(39, 38, 38, 0.5);
+            border: 0.7px solid rgb(249, 251, 251, 0.5);
+            color: azure;
+            font-size: medium;
+            text-align: center;
+        }
+        /* .s4 select option[value="1"]{ */
+            /* background-color: rgb(39, 38, 38, 0.5); */
+            /* color: azure; */
+        /* } */
+        .s4 button{
+            width: 90px;
+            height: 35px;
+            border-radius: 5px;
+            background-color: red;
+            color: azure;
+            font-size: medium;
+            border: 0px;
+        }
+        .main2{
+            width: 100%;
+            background-color: black;
+            color: azure;
+        }
+        .m1{
+            position: relative;
+            width: 70%;
+            left: 15%;
+        }
+        .m2{
+            background: linear-gradient(to bottom, rgb(74, 1, 74), rgba(86, 46, 82, 0.3));
+            height: 70px;
+            position: relative;
+            border-radius: 20px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+        }
+        .m2:hover{
+            transform: scale(1.05);
+            background: linear-gradient(to bottom, rgb(150, 70, 150), rgb(58, 33, 58)) ;
+        }
+        #n{
+            position: relative;
+        }
+        .m21{
+            position: absolute;
+            left: 50px;
+            top: 10px;
+        }
+        .m22{
+            position: absolute;
+            left: 250px;
+            top: 15px;
+        }
+        .m23{
+            position: absolute;
+            left: 900px;
+            top: 25px;
+        }
+        .m21 img{
+            width: 60px;
+            height: 50px;
+        }
+        .m22 h3,p{
+            margin: 0px;
+        }
+        .m23 button{
+            background-color: azure;
+            border-radius: 5px;
+            /* border: 2px solid grey; */
+            transition: transform 0.3s ease;
+        }
+        .m3{
+            position: relative;
+            top: 100px;
+        }
+        .t1{
+            position: relative;
+        }
+        .t1 img{
+            width: 200px;
+            height: 300px;
+            padding-right: 80px;
+            border-radius: 20px;
+        }
+        .t2{
+            position: absolute;
+            top: 177px;
+            left: -60px;
+        }
+        .t2 img{
+            width: 130px;
+            height: 145px;
+        }
+        .t1{
+            transition: transform 0.3s ease;
+        }
+        .t1:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="https://cdn.wallpapersafari.com/24/74/zgeTuV.jpg" style = "filter: brightness(25%);">
+        <div class="s1">
+            <img src="https://loodibee.com/wp-content/uploads/Netflix-logo.png">
+        </div>
+        <div class="s2">
+            <h1>
+                <b style="font-style: Caelan Sans Serif Font Family (TTF, OTF, WOFF);">Unlimited Movies,TV<br> shows and more</b>
+            </h1>
+            <p>
+                <b style="font-size: x-large;">Starts at ₹149. Cancel at any time.</b><br>
+            </p>
+            <p style="font-size: large; margin: 30px;">Ready to watch? Enter your email to create or restart your membership.</p>
+        </div>
+        <div class="s3">
+            <table>
+                <tr>
+                    <td>
+                        <input type="email" placeholder="Email address">
+                    </td>
+                    <td>
+                        <button><b>Get Started   ></b></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div class="s4">
+            <table>
+                <tr>
+                    <td>
+                        <select name="" id="">
+                            <option value="1"><b>Tamil</b></option>
+                            <option value="2"><b>Korea</b></option>
+                        </select>
+                    </td>
+                    <td>
+                        <button><b>Sign in</b></button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="main2">
+        <div class="m1">
+            <h3>Trending Now</h3>
+            <div class="m2" id="n">
+                <div class="m21">
+                    <img src="https://pngimg.com/d/popcorn_PNG56.png">
+                </div>
+                <div class="m22">
+                    <h3>The Netflix you love for just US$6.99.</h3>
+                    <p>Get our most affordable, advert-supported plan</p>
+                </div>
+                <div class="m23">
+                    <button>Learn more</button>
+                </div>
+            </div>
+            <div class="m3">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="t1">
+                                <img src="https://i.pinimg.com/736x/e0/e7/21/e0e72170f5c3f7c4f7e27f7844cbaa39.jpg">
+
+                                <div class="t2">
+                                    <img src="https://pngimg.com/d/number1_PNG14873.png">
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="t1">
+                                <img src="https://m.media-amazon.com/images/M/MV5BNWI3Y2RkYTgtYmVjZS00YWE0LWI5NDctNGUwZjBlNjFhZmM0XkEyXkFqcGc@._V1_.jpg">
+
+                                <div class="t2">
+                                    <img src="https://pngimg.com/d/number1_PNG14873.png">
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="t1">
+                                <img src="https://i.ebayimg.com/00/s/MTYwMFgxMDM1/z/akAAAOSwOgdYuw2h/$_57.JPG?set_id=8800005007">
+
+                                <div class="t2">
+                                    <img src="https://pngimg.com/d/number1_PNG14873.png">
+                                </div>
+
+                            </div>
+                        </td>
+                        <td>
+                            <div class="t1">
+                                <img src="https://image.tmdb.org/t/p/original/fT7C1pt8eosHqATOGb8MnWQ5zHG.jpg">
+
+                                <div class="t2">
+                                    <img src="https://pngimg.com/d/number1_PNG14873.png">
+                                </div>
+
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
